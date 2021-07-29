@@ -1,6 +1,6 @@
 function Navbar() {
     return (
-        <nav className="fixed bg-white backdrop-filter backdrop-blur-lg bg-opacity-60 w-full border-b border-gray-300 md:border-0">
+        <nav className="fixed bg-white backdrop-filter backdrop-blur-lg bg-opacity-40 w-full border-b border-gray-300 md:border-0">
           <div className="max-w-3xl mx-auto md:flex justify-between py-6 font-normal px-6 lg:px-0" >
             <div className="text-md flex justify-center md:inline">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">

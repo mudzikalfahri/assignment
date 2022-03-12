@@ -116,7 +116,6 @@ td {
   align-items: center;
   border: 1px solid gainsboro;
 }
-
 form {
   width: 100%;
 }
@@ -130,7 +129,6 @@ input {
   padding: 0.35rem 0;
   width: 100%;
 }
-
 .button-submit {
   margin-top: 1.5rem;
   width: 100%;

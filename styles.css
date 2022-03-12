@@ -1,0 +1,139 @@
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: white;
+  box-shadow: 0.5rem rgba(0, 0, 0, 0.2);
+}
+
+.header {
+  max-width: 1100px;
+  margin: auto;
+  padding: 1rem 0rem;
+}
+
+.content {
+  max-width: 1100px;
+  margin: auto;
+}
+
+.header ul {
+  margin-left: auto;
+  display: flex;
+  width: max-content;
+  gap: 0 0.75rem;
+  align-items: center;
+  font-size: 0.75rem;
+  list-style: none;
+}
+
+.profile {
+  background-color: white;
+  margin-top: 5rem;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  border: 1px solid gainsboro;
+}
+
+.profile_name {
+  flex: 0.65;
+  display: flex;
+  border-right: 1px solid gray;
+  align-items: center;
+}
+
+.profile_name_image {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 100%;
+  background-color: black;
+}
+
+.profile_name_name {
+  margin-left: 1.5rem;
+}
+
+.profile_name_name > h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.25rem;
+}
+.profile_name_name > p {
+  font-size: 0.85rem;
+  color: gray;
+  margin-bottom: 1rem;
+}
+
+button {
+  border: 1px solid gray;
+  padding: 0.5rem 1rem;
+  margin-right: 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.blue {
+  background-color: blue;
+  color: white;
+}
+
+.transparent {
+  background-color: transparent;
+  color: green;
+}
+
+.profile-detail {
+  padding-left: 2rem;
+}
+
+td {
+  padding: 0 1rem;
+  font-size: 0.85rem;
+}
+.column-1 {
+  font-weight: 600;
+}
+.column-2 {
+  color: gray;
+}
+
+.form {
+  background-color: white;
+  margin-top: 5rem;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  border: 1px solid gainsboro;
+}
+
+form {
+  width: 100%;
+}
+.label {
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 0.4rem;
+}
+input {
+  border: 1px solid gray;
+  padding: 0.35rem 0;
+  width: 100%;
+}
+
+.button-submit {
+  margin-top: 1.5rem;
+  width: 100%;
+  background-color: green;
+  color: white;
+}

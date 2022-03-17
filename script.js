@@ -5,7 +5,6 @@ const agetext = document.getElementById("agetext");
 const lokasitext = document.getElementById("lokasitext");
 const experiencetext = document.getElementById("experiencetext");
 const emailtext = document.getElementById("emailtext");
-console.log(namatext);
 const submitData = () => {
   const nama = document.getElementById("nama").value;
   const role = document.getElementById("role").value;

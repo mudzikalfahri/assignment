@@ -29,8 +29,8 @@
         <div class="profile_name">
           <div class="profile_name_image"></div>
           <div class="profile_name_name">
-            <h1>Nama Anda</h1>
-            <p>Frontend Engineer</p>
+            <h1 id="namatext">Nama Anda</h1>
+            <p id="roletext">Frontend Engineer</p>
             <div class="button-kontak">
               <button class="button blue">Kontak</button>
               <button class="button transparent">Resume</button>
@@ -41,29 +41,29 @@
           <table>
             <tr>
               <td class="column-1">Availability</td>
-              <td class="column-2">Full Time</td>
+              <td id="availabilitytext" class="column-2">Full Time</td>
             </tr>
             <tr>
               <td class="column-1">Usia</td>
-              <td class="column-2">17</td>
+              <td id="agetext" class="column-2">17</td>
             </tr>
             <tr>
               <td class="column-1">Lokasi</td>
-              <td class="column-2">Jakarta, Indonesia</td>
+              <td id="lokasitext" class="column-2">Jakarta, Indonesia</td>
             </tr>
             <tr>
               <td class="column-1">Pengalaman</td>
-              <td class="column-2">8</td>
+              <td id="experiencetext" class="column-2">8</td>
             </tr>
             <tr>
               <td class="column-1">Email</td>
-              <td class="column-2">email@email.com</td>
+              <td id="emailtext" class="column-2">email@email.com</td>
             </tr>
           </table>
         </div>
       </div>
       <div class="form">
-        <form action="">
+        <div class="forme">
           <p class="label">Nama</p>
           <input type="text" id="nama" />
           <p class="label">Role</p>
@@ -78,9 +78,10 @@
           <input type="text" id="experience" />
           <p class="label">Email</p>
           <input type="text" id="email" />
-          <button class="button-submit">SUBMIT</button>
-        </form>
+          <button onclick="submitData()" class="button-submit">SUBMIT</button>
+        </div>
       </div>
     </div>
+    <script src="./script.js"></script>
   </body>
 </html>
